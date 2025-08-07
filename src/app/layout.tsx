@@ -11,10 +11,7 @@ export const metadata: Metadata = {
   description: '3ELOGIC CONSULTANCY PTE. LTD. specializes in Business Analytics and Optimization. We help clients achieve sustainable cost savings, operational efficiency, and optimal performance through intelligent data analysis.',
   keywords: 'business analytics, optimization, consulting, data analysis, Singapore',
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/logo/3ELogo.png', type: 'image/png' }
-    ],
+    icon: '/logo/3ELogo.png',
     shortcut: '/logo/3ELogo.png',
     apple: '/logo/3ELogo.png',
   },
@@ -27,10 +24,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logo/3ELogo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo/3ELogo.png" />
-      </head>
       <body className={inter.className}>
         <div className="min-h-screen bg-white">
           <div className="relative z-50">
